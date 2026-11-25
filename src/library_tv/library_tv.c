@@ -37,6 +37,7 @@ static void LibraryTV_SetMsgLdr(LibraryTV *ltv);
 static void LibraryTV_ReleaseMsgLdr(LibraryTV *ltv);
 static void LibraryTV_UpdateScanLines(LibraryTV *ltv);
 
+
 BOOL LibraryTV_Init(ApplicationManager *appMan, int *state)
 {
     Heap_Create(HEAP_ID_APPLICATION, HEAP_ID_LIBRARY_TV, HEAP_SIZE_LIBRARY_TV);
