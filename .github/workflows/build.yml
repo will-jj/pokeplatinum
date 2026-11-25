@@ -26,7 +26,7 @@ jobs:
 
       - name: where are you
         run: |
-          dpkg --print-foreign-architectures
+          echo "foreign archs: [$(dpkg --print-foreign-architectures)]"
 
       - name: Checkout Repo
         uses: actions/checkout@v6
