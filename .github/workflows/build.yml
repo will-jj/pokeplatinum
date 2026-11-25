@@ -26,8 +26,8 @@ jobs:
 
       - name: where are you
         run: |
-          apt-get install apt-rdepends
-          apt-rdepends -r libc6-i386
+          sudo apt-get install apt-rdepends
+          sudo apt-rdepends -r libc6-i386
 
       - name: Checkout Repo
         uses: actions/checkout@v6
